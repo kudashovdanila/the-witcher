@@ -221,6 +221,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   &__subtitle {
     font-size: 10px;
     line-height: 12px;
@@ -236,17 +239,37 @@ body {
 
 .series-1{
   background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 .series-2{
   background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
+
+.series-3 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-3.jpg);
+}
+
+.series-4 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-4.jpg);
+}
+
+.series-5 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-5.jpg);
+}
+
+.series-6 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-6.jpg);
+}
+
+.series-7 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-7.jpg);
+}
+
+.series-8 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-8.jpg);
+}
+
+
 
 .arrow {
   padding-right: 20px;

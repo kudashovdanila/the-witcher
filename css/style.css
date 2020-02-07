@@ -313,6 +313,9 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .series-card__subtitle {
@@ -330,17 +333,41 @@ body {
 .series-1 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(20, 18, 24, 0.5)), to(#2D2D2D)), url(../img/series/series-1.jpg);
   background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 .series-2 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(20, 18, 24, 0.5)), to(#2D2D2D)), url(../img/series/series-2.jpg);
   background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+}
+
+.series-3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(20, 18, 24, 0.5)), to(#2D2D2D)), url(../img/series/series-3.jpg);
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-3.jpg);
+}
+
+.series-4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(20, 18, 24, 0.5)), to(#2D2D2D)), url(../img/series/series-4.jpg);
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-4.jpg);
+}
+
+.series-5 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(20, 18, 24, 0.5)), to(#2D2D2D)), url(../img/series/series-5.jpg);
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-5.jpg);
+}
+
+.series-6 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(20, 18, 24, 0.5)), to(#2D2D2D)), url(../img/series/series-6.jpg);
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-6.jpg);
+}
+
+.series-7 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(20, 18, 24, 0.5)), to(#2D2D2D)), url(../img/series/series-7.jpg);
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-7.jpg);
+}
+
+.series-8 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(20, 18, 24, 0.5)), to(#2D2D2D)), url(../img/series/series-8.jpg);
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(../img/series/series-8.jpg);
 }
 
 .arrow {
