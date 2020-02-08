@@ -43,7 +43,7 @@ body {
     padding-top: 60px;
     margin-bottom: 90px;
     @media (max-width: 540px) {
-      opacity: 0;
+      display: none;
       position: absolute;
       top: 0;
       right: 0;
@@ -54,8 +54,8 @@ body {
     }
   }
   &-active{
+    display: flex;
     transition: all .2s;
-    opacity: 1;
     z-index: 1;
   }
 }
